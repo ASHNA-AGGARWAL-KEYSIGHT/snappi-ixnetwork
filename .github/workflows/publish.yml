@@ -66,4 +66,4 @@ jobs:
     runs-on: [self-hosted, Linux, Ubuntu, x64]
     needs: cicd
     steps:
-      - uses: open-traffic-generator/snappi-tests/.github/workflows/cicd.yml
+      - uses: snappi-tests/.github/workflows/cicd.yml@main
